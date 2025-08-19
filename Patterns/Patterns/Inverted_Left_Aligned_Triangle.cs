@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Patterns
 {
     internal class Inverted_Left_Aligned_Triangle
