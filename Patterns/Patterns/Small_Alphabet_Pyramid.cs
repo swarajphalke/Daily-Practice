@@ -4,24 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
 namespace Patterns
 {
-    internal class Right_Aligned_Triangle
+    internal class Small_Alphabet_Pyramid
     {
         public static void Main()
         {
-            int n = 4;
+            int n = 5;
 
             for (int i = 1; i <= n; i++)
             {
-                for (int j = 1; j <= n - i; j++)
+                for (int s = 1; s <= n - i; s++)
                 {
-                    Console.Write("  ");
+                    Console.Write(" ");
                 }
-                for (int k = 1; k <= i; k++)
+                for (int j = 1; j <= i; j++)
                 {
-                    Console.Write("* ");
+                    Console.Write((char)(96 + j) + " ");
                 }
                 Console.WriteLine();
             }

@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
 namespace Patterns
 {
-    internal class Right_Aligned_Triangle
+    internal class Number_Pyramid
     {
         public static void Main()
         {
@@ -15,13 +14,13 @@ namespace Patterns
 
             for (int i = 1; i <= n; i++)
             {
-                for (int j = 1; j <= n - i; j++)
+                for (int s = 1; s <= n - i; s++)
                 {
-                    Console.Write("  ");
+                    Console.Write(" ");
                 }
-                for (int k = 1; k <= i; k++)
+                for (int j = 1; j <= i; j++)
                 {
-                    Console.Write("* ");
+                    Console.Write(j + " ");
                 }
                 Console.WriteLine();
             }
