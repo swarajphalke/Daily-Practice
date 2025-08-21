@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	  <StartupObject>Patterns.Right_Aligned_Triangle</StartupObject>
+	  <StartupObject>Patterns.Floyds_Triangle</StartupObject>
   </PropertyGroup>
 
 </Project>
