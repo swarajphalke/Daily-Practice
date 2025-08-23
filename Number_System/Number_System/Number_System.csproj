@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	  <StartupObject>Patterns.Rhombus</StartupObject>
+	  <StartupObject>Number_System.ArmstrongNumbers</StartupObject>
   </PropertyGroup>
 
 </Project>

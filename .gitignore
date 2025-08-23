@@ -1,2 +1,8 @@
-Patterns/Patterns/obj/Debug/net8.0/Patterns.AssemblyInfo.cs
-Patterns/Patterns/obj/Debug/net8.0/Patterns.AssemblyInfoInputs.cache
+.vs/
+*.vsidx
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+bin/
+obj/
