@@ -14,8 +14,6 @@ namespace Number_System
             int tempValue = originalValue;
             int digitCount = 0;
             int remainder;
-
-            
             int poweredDigit;
             int armstrongSum = 0;
 
