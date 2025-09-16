@@ -17,7 +17,6 @@ namespace Number_System
             int poweredDigit;
 
 
-            
             int armstrongSum = 0;
 
             while (tempValue > 0)
