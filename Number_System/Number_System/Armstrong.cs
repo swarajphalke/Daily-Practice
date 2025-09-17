@@ -35,7 +35,6 @@ namespace Number_System
             }
 
 
-            
             if (originalValue == armstrongSum)
             {
                 Console.WriteLine(originalValue + " is Armstrong");
