@@ -33,6 +33,9 @@ namespace Number_System
                 tempValue = tempValue / 10;
 
             }
+
+
+            
             if (originalValue == armstrongSum)
             {
                 Console.WriteLine(originalValue + " is Armstrong");
