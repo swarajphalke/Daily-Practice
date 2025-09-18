@@ -22,6 +22,7 @@ namespace Number_System
                         count++;
                     }
                 }
+                
                 if (count == 2)
                 {
                     Console.WriteLine(number + " is Prime ");
