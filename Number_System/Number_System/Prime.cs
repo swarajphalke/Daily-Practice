@@ -27,9 +27,6 @@ namespace Number_System
             {
                 Console.WriteLine(number + " is not Prime");
             }
-
-
-
         }
         public static void Main()
         {
